@@ -1,0 +1,58 @@
+
+header, footer, main, aside{
+	  padding: 15px;
+	  margin: 10px;
+	  background-color:lightgray;
+	  text-align:center;
+	  font-family:Arial;
+}
+.btns{
+	margin-top:5px ;
+	padding:5px;
+	}
+
+aside{
+	padding:30px;
+	float:left;
+}
+
+
+footer{
+ font-weight:bold;
+ color:darkblue;
+ background:
+ url(mathbg.png) center center no-repeat;
+ 
+}
+
+
+input[type="button"]:hover{
+background-color:lightblue;
+cursor:pointer;
+}
+
+
+input[type="text"]{
+	padding:5px;
+	font-size:1em;
+	border:1px solid lightgray;
+	border-radius:4px;
+
+
+}
+
+
+input[type="button"]{
+font-weight:bold;
+border-style:double;
+line-height:30px;
+padding-right:10px;
+padding-left:10px;
+}
+
+ul{
+	list-style-type:square;
+	list-style-position:inside;
+	padding-left:10px;
+	
+}

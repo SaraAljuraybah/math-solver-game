@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Math Solver Game</title>
+
+  <link rel="stylesheet" href="style.css">
+
+
+  <script src="javaScript.js"></script>
+
+</head>
+
+
+<body onload="setUserName(), generateQuestion()">
+
+  <header>
+    <h1>Math Solver Game</h1>
+  </header>
+
+  <aside>
+
+  </aside>
+
+  <main>
+    <table>
+      <tr><td></td><td></td></tr>
+      <tr><td></td><td></td></tr>
+      <tr><td></td><td></td></tr>
+      <tr><td></td><td></td></tr>
+      <tr><td></td><td></td></tr>
+    </table>
+    <br>
+
+    <form name="mathForm" id="gameForm" method="POST">
+
+		   <div id="qst">
+		   </div>
+		   <input type="text" name="ans" id="ans" required maxlength=3>
+		   <div class="btns">
+			   <input type="button" value="ENTER" id="enter" onclick="checkAnswer()">
+			   <input type="button" value="RESTART" id="resstart" onclick="restartGame()">
+		   </div>
+    </form>
+  </main>
+
+  <footer>
+	
+	<ul>
+		<li>Sara Aljuraybah</li>
+		<li>*********</li>
+		<li>0000000</li>
+
+	</ul>
+
+
+  </footer>
+</body>
+</html>
+
