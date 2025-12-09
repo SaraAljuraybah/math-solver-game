@@ -28,9 +28,7 @@ Players must solve 5 random math questions — including addition, subtraction, 
 ## 📷 Live Demo
 You can play the game here:
 
-👉 **https://YOUR_USERNAME.github.io/math-solver-game/**
-
-*(Replace `YOUR_USERNAME` with your GitHub username)*
+👉 **https://saraaljuraybah.github.io/math-solver-game/**
 
 ---
 
